@@ -1,4 +1,7 @@
 import streamlit as st
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
 from utils.translations import T
 from utils.weather import fetch_weather
 from utils.market import get_market_data
